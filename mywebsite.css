@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: 0;
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+.logo{
+    color: orangered;
+    padding-top: 18px;
+    float: left;
+    font-size: 33px;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+.menu ul {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+.menu ul li a{
+    color: white;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: orangered;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    padding: 8px;
+    font-size: 15px;
+    font-family: Arial;
+    border: 1px solid orangered;
+    background: transparent;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    width: 200px;
+    height: 40px;
+    margin-top: 18px;
+    float: left;
+    color: white;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    padding: 8px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: none;
+    font-size: 15px;
+    margin-top: 18px;
+    font-family: Arial;
+    margin-left: -1px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.btn:hover{
+    background-color: hsl(16, 100%, 55%);
+}
+.main{
+    background-image: url(images/website_pic2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.info{
+    padding-top: 160px;
+    padding-left: 100px;
+}
+h1{
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+h1 span{
+    font-size: 70px;
+    color: orangered;
+}
+p{
+    font-size: 18px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: rgb(0, 0, 0);
+}
+.btn2{
+    margin-top: 20px;
+    padding-left: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 17px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    background-color: orangered;
+    font-weight: bold;
+    font-size: 17px;
+    transition: .2s ease;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: hsl(0, 0%, 100%);
+}
+.form{
+    height: 380px;
+    width: 250px;
+    background: linear-gradient(to top,rgb(0,0,0,0.8)50%,rgb(0,0,0,0.8)50%);
+    position: absolute;
+    top: 170px;
+    left: 1000px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    color: orangered;
+    width: 240px;
+    height: 35px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 22px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid orangered;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.form input:focus{
+    outline: none;
+}
+.btn3{
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    width: 240px;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease;
+    text-align: center;
+    font-weight: bold;
+    transition: .3s ease;
+}
+.btn3 a{
+    color: black;
+}
+.btn3:hover{
+    background-color: white;
+    color: orangered;
+}
+.btn3 a{
+    color: black;
+}
+.form .link{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.form .link a span{
+    color: orangered;
+}
+.form .link a{
+    color: white;
+}
+.liw{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.social{
+    width: 240px;
+    height: 35px;
+    margin-top: 13px;
+    text-align: center;
+    position: relative;
+}
+.social a{
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    transition: .3s ease;
+    padding-left: 4px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 3px;
+}
+.social a:hover{
+    color: orangered;
+    border: 1px solid orangered;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 40px 0;
+}
+.finfo ul{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+.finfo ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 12px;
+    transition: .3s ease;
+}
+.finfo ul li a:hover{
+    color: orangered;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    transition: .3s ease;
+}
+.footer p:hover{
+    color: purple;
+}
+
+@media (max-width: 1000px) {
+    .form, .main {
+      width: 100%;
+      height: auto;
+    }
+  }
